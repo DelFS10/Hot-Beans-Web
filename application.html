@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Job Application Form</title>
+        <link rel="stylesheet" href="application.css">
+    </head>
+    <body>
+        <img src="logo.png" alt="job application" width="150px"></img>
+        <h1 class="head"> APPLY FOR YOUR CAREER TODAY!</h1>
+        <ul class="navbar">
+            <li class="lists"><a href="main.html">Home</a></li>
+            <li class="lists"><a href="#contact-nav">Contact</a></li>
+            <li class="lists"><a href="login.html">Account</a></li>
+            <li class="lists"><a href="search.html">Search</a></li>
+          </ul> <br>
+        <p class="para">(Please fill the form below to complete your job appliaction)</p>
+        <hr>
+
+        <div class="name-div">
+        <p class="name"> Name <span class="ast">*</span></p>
+        <form class="name">
+            <input class="fname" type="text" id="fname" name="fname" placeholder="First Name"></input>
+            <input class="mname" type="text" id="mname" name="mname" placeholder="Middle Name(Optional)"></input>
+            <input class="lname" type="text" id="lname" name="lname" placeholder="Last Name"></input>
+        </form>
+        </div>
+        <hr>
+    
+        <div class="email-div">
+            <div class="email-para">E-mail<span class="ast">*</span></div>
+            <div>Phone Number<span class="ast">*</span></div>
+            <form class="email">
+                <input class="email" type="text" id="email" name="email" placeholder="someone@example.com"></input>
+                <input class="pnum" type="text" id="pnum" name="pnum" placeholder="0123456789"></input>
+            </form>
+        </div>
+        <hr>
+
+        <div class="details-div">
+            <div class="gender">Gender<span class="ast">*</span></div>
+            <div>Date Of Birth<span class="ast">*</span></div>
+            <form class="details-form">
+                <input type="radio" id="m" name="gender" value="Male">
+                <label for="m">Male</label><br>
+                <input type="radio" id="f" name="gender" value="Female">
+                <label for="f">Female</label><br>
+                <input type="radio" id="prefer not to say" name="gender" value="Prefer not to say">
+                <label class="space" for="P">Prefer not to say</label>
+                
+                <label for="dob">D.O.B: <span class="ast">*</span></label>
+                    <input class="space" type="date" id="birthday" name="birthday">
+
+                <label for="disability">Do you consider yourself to have any disability? <span class="ast">*</span></label>
+                <input type="radio" id="y" name="dis" value="Yes">
+                <label for="y">Yes</label>
+                <input type="radio" id="n" name="dis" value="No">
+                <label for="n">No</label>
+                <input class="reason" type="text" id="reason" name="reason" placeholder="Mention the disability:">
+            </form>
+        </div>
+        <hr>
+
+        <div class="upload">
+            <div class="resume"> Upload resume here</div>
+            <div class="icon">
+                <img src="https://cdn.icon-icons.com/icons2/3214/PNG/512/cloud_file_upload_server_icon_196427.png" alt="upload cv" width="150px"></img>
+            </div>
+            <div class="resume"> Upload documents here</div>
+            <div class="icon">
+                <img src="https://cdn.icon-icons.com/icons2/3214/PNG/512/cloud_file_upload_server_icon_196427.png" alt="upload cv" width="150px"></img>
+            </div>
+            <div class="resume"> Upload cover letter here</div>
+            <div class="icon">
+                <img src="https://cdn.icon-icons.com/icons2/3214/PNG/512/cloud_file_upload_server_icon_196427.png" alt="upload cv" width="150px"></img>
+            </div>
+        </div class=submit-button>
+        <div>
+        <button class="submit"> SUBMIT</button>
+        </div>
+    </body>
+</html>
